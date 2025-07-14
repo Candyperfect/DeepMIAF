@@ -12,7 +12,7 @@ This is the code repository for protein function prediction model DeeepMIAF.
 * The version of CUDA is `cudatoolkit==11.3.1`
 
 ## Data
-Our experimental dataset come from [MSNGO](https://github.com/blingbell/MSNGO/tree/master/data). It covers 13 species and multiple modal data, including protein sequences, PPI networks, 3D structures, and GO annotations. Among them, the protein sequences are from Uniprot, PPI networks are from STRING (v11.0b), and protein structures have been missing-supplemented by AlphaFold2 or ESMFold methods. GO annotations are downloaded from the GOA database, filtered by species and evidence codes. For the biological textual descriptions, we collect them from the [UniProtKB] (https://rest.uniprot.org/uniprotkb/). You can download [here](https://github.com/Candyperfect/DeepMIAF/tree/main/data)
+Our experimental dataset come from [MSNGO](https://github.com/blingbell/MSNGO/tree/master/data). It covers 13 species and multiple modal data, including protein sequences, PPI networks, 3D structures, and GO annotations. Among them, the protein sequences are from Uniprot, PPI networks are from STRING (v11.0b), and protein structures have been missing-supplemented by AlphaFold2 or ESMFold methods. GO annotations are downloaded from the GOA database, filtered by species and evidence codes. For the biological textual descriptions, we collect them from the [UniProtKB](https://rest.uniprot.org/uniprotkb/). You can download [here](https://github.com/Candyperfect/DeepMIAF/tree/main/data)
 
 
 ## Train
