@@ -4,7 +4,11 @@ This is the code repository for protein function prediction model DeeepMIAF.
 
 **DeeepMIAF**: This method first employs advanced protein generation techniques to impute missing modality data with high fidelity, thereby mitigating the adverse impact of incomplete multimodal inputs. Subsequently, modality-specific feature extractors are utilized to capture the intrinsic and complementary characteristics of each data modality, yielding enriched protein representations. Building upon these representations, a gated attention mechanism is designed to dynamically reweight modality contributions, enabling effective and adaptive integration of heterogeneous biological evidence. Furthermore, DeepMIAF incorporates a network propagation module to exploit topological structures, integrating sequence homology and protein–protein interaction networks into the predictive model.
 
-<div align=center><img width="800" alt="DeepMIAF" src="https://github.com/Candyperfect/DeepMIAF/tree/main/images/DeepMIAF.png"></div>
+<p align="center">
+    <br>
+    <img src="./images/DeepMIAF.png?raw=true" width="800" height="381"/>
+    <br>
+</p>
 
 ## Dependencies
 * The code was developed and tested using python 3.8.
