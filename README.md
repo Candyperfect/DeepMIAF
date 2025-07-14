@@ -19,7 +19,7 @@ This is the code repository for protein function prediction model DeeepMIAF.
 Our experimental dataset come from [MSNGO](https://github.com/blingbell/MSNGO/tree/master/data). It covers 13 species and multiple modal data, including protein sequences, PPI networks, 3D structures, and GO annotations. Among them, the protein sequences are from Uniprot, PPI networks are from STRING (v11.0b), and protein structures have been missing-supplemented by AlphaFold2 or ESMFold methods. GO annotations are downloaded from the GOA database, filtered by species and evidence codes. For the biological textual descriptions, we collect them from the [UniProtKB](https://www.uniprot.org/). You can download [here](https://github.com/Candyperfect/DeepMIAF/tree/main/data).
 
 
-## Train
+## Train and Predict
 
 If you want to train on your own dataset, please download [esm2_t33_650M_UR50D.pt](https://github.com/facebookresearch/esm?tab=readme-ov-file#esmfold) to DeeepMIAF/esm2_t33_650M_UR50D/
 
@@ -35,14 +35,5 @@ The mf, bp, and cc branches will be trained, predicted, and evaluated by the fol
 ./scripts/run_mf.sh
 ./scripts/run_bp.sh
 ./scripts/run_cc.sh
-```
-
-## Predict
-
-Our trained model can be downloaded from [here](https://github.com/blingbell/MSNGO/tree/master/DeepMIAF_models). 
-
-You can use the model directly to get predictions. Run the `predict.py` script to make predictions about the input file (e.g. for CC):
-```
-python predict.py --ontology cc -f your_test.fasta
 ```
 
