@@ -21,7 +21,7 @@ Our experimental dataset come from [MSNGO](https://github.com/blingbell/MSNGO/tr
 
 ## Train and Predict
 
-If you want to train on your own dataset, please download [esm2_t33_650M_UR50D.pt](https://github.com/facebookresearch/esm?tab=readme-ov-file#esmfold) to DeeepMIAF/esm2_t33_650M_UR50D/
+If you want to train on your own dataset, please download [esm2_t33_650M_UR50D.pt](https://github.com/facebookresearch/esm?tab=readme-ov-file#esmfold) to DeeepMIAF/esm2_t33_650M_UR50D/, [Prot2text_base.zip](https://github.com/hadi-abdine/Prot2Text?tab=readme-ov-file) to DeeepMIAF/Prot2Text-master/
 
 Preprocessing.sh is for processing your raw data. 
 
